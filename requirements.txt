@@ -1,0 +1,5 @@
+haystack-ai
+pymed
+streamlit
+python-dotenv
+transformers
