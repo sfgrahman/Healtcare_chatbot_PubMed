@@ -114,7 +114,6 @@ if submit:
     result = ask(user_question)
     st.write(result)
 
-
 multi = '''Example Questions: 
 1. How are mRNA vaccines being used for cancer treatment?
 2. Suggest me some Case Studies related to Pneumonia.
@@ -123,4 +122,4 @@ multi = '''Example Questions:
 5. How to treat a COVID infected Patient?
 
 '''
-st.markdown(multi)
+st.sidebar.markdown(multi)
